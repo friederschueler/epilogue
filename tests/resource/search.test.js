@@ -246,7 +246,7 @@ describe('Resource(search)', function() {
       name: 'search from start',
       config: {
         search: {
-          direction: 'start'
+          direction: 'ltr'
         }
       },
       query: 'ar',
@@ -259,7 +259,7 @@ describe('Resource(search)', function() {
       name: 'search from end',
       config: {
         search: {
-          direction: 'end'
+          direction: 'rtl'
         }
       },
       query: 'am',
